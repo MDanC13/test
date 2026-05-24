@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Services | Bake 'n Slurp</title>
+        <link rel="icon" type="image/png" href="assets/images/navigationbar/bakenslurplogoblack.png">
+        <link rel="stylesheet" href="global.css">
+        <link rel="stylesheet" href="services.css">
+        <script src="components.js"></script>
+    </head>
+<body>
+
+    <div id="page-loader" class="loader-container">
+        <div class="spinner"></div>
+    </div>
+    <bake-header></bake-header>
+    <main>
+        <section class="services-hero">
+            <img src="assets/images/backgroundpicture/banner.png" alt="Services Background">
+            <h1>SERVICES</h1>
+        </section>
+
+        <section class="services-container">
+            <div class="services-grid" id="services-grid"></div>
+        </section>
+        
+        <div id="serviceModal" class="modal">
+          <div class="modal-content">
+            <span class="close-modal">&#8617;</span>
+            
+            <div id="modal-body">
+                <img id="modal-img" src="" alt="Service Image">
+                <h2 id="modal-title">Service</h2>
+                <div id="modal-desc"></div>
+                <a href="contact.html" class="contact-btn">Contact Us</a>
+            </div>
+          </div>
+        </div>
+    </main>
+    <bake-footer></bake-footer>
+    <script src="services.js"></script>
+</body>
+</html>
